@@ -75,10 +75,10 @@ int _printf(const char *format, ...)
  *
  *return: chars printed
  */
-int print_int(int num)
+int print_int(long int num)
 {
-    int count = 0;
-    int reversed = 0;
+    long int count = 0;
+    long int reversed = 0;
 
     if (num == 0)
     {

@@ -7,5 +7,5 @@
 int _printf(const char *format, ...);
 int _puts(char *str);
 int _putchar(char c);
-int print_int(int num);
+int print_int(long int num);
 #endif
