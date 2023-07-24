@@ -69,13 +69,14 @@ int _printf(const char *format, ...)
 int print_int(int num)
 {
     int count = 0;
+    int reversed = 0;
+
     if (num == 0)
     {
         _putchar('0');
         return 1;
     }
 
-    int reversed = 0;
     while (num != 0)
     {
         reversed = reversed * 10 + num % 10;
